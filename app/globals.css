@@ -19,3 +19,9 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Ensures images scale correctly while maintaining their aspect ratio */
+img {
+  width: auto;
+  height: auto;
+}
