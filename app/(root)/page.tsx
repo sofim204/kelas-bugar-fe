@@ -3,7 +3,6 @@ import Image from "next/image";
 export default function Home() {
     return (
         <div className="min-h-screen flex justify-center items-start p-8">
-            {/* <main className="flex flex-col justify-start gap-3 sm:flex-row"> */}
             <main className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
                 <div className="max-w-sm rounded">
                     <Image
