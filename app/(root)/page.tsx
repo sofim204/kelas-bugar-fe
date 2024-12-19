@@ -8,7 +8,7 @@ export default function Home() {
         if (description.length <= maxLength) return description;
 
         let truncated = description.substring(0, maxLength);
-        let lastSpaceIndex = truncated.lastIndexOf(' ');
+        const lastSpaceIndex = truncated.lastIndexOf(' ');
 
         if (lastSpaceIndex !== -1) {
             truncated = truncated.substring(0, lastSpaceIndex);
