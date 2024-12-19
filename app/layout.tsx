@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Kelas Bugar | Home",
-  description: "Healty is a lifestyle",
+  description: "Healthy is a lifestyle",
 };
 
 export default function RootLayout({

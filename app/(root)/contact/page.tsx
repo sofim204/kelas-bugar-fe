@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
     title: "Kelas Bugar | Contact",
-    description: "Healty is a lifestyle",
+    description: "Healthy is a lifestyle",
 };
 
 export default function Contact() {
