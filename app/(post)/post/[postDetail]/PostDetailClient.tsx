@@ -2,7 +2,7 @@
 import postData from "@/app/api/postData";
 import Image from "next/image";
 
-export default function PostDetail({ id }: { id: number }) {
+export default function PostDetailClient({ id }: { id: number }) {
   const detailPost = postData.find((post) => post.id === Number(id));
 
   if (!detailPost) {
