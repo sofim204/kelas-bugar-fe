@@ -18,7 +18,7 @@ export default function Home() {
     };
 
     return (
-        <div className="min-h-screen flex justify-center items-start p-8 mt-10">
+        <div className="min-h-screen flex justify-center items-start p-8 mt-16">
             <main className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
                 {
                     postData.map((post, index) => (
