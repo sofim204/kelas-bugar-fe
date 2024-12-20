@@ -24,8 +24,7 @@ export default function Home() {
                     postData.map((post, index) => (
                         <Link key={index} 
                             href={{
-                                pathname: `/post/${post.slug}`,
-                                query: { id: post.id },
+                                pathname: `/post/${post.id}`,
                             }}
                             className="text-gray-500 cursor-pointer hover:text-gray-900 dark:hover:text-white" 
                             >
