@@ -22,7 +22,7 @@ export default async function Page({
         }
     
         return (
-            <div className="min-h-screen mb-32 mx-6 lg:mx-20">
+            <div className="min-h-screen mt-24 mb-32 mx-6 lg:mx-20">
                 <div className="mt-10">
                     <h2 className="text-black text-3xl font-bold">{detailPost.title}</h2>
                     <p className="text-gray-600 text-xl font-normal">{detailPost.date}</p>
