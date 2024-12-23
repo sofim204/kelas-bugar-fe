@@ -36,6 +36,53 @@ export default async function Page({
                     />
                     <p className="text-black text-2xl mt-10">{detailPost.description}</p>
                 </div>
+                <div className="mt-20">
+                    <h1 className="text-3xl text-black font-bold mb-5">Related Article(category)</h1>
+                    <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                        <div className="max-w-sm rounded">
+                            <Image
+                                className="w-auto h-auto"
+                                src="/category1.png"
+                                alt="Category"
+                                width={800}
+                                height={100}
+                                loading="lazy"
+                                />
+                            <div className="px-1 py-4">
+                                <div className="font-bold text-xl mb-2 text-black">Lorem ipsum dolor sit jamet</div>
+                                <p className="text-gray-700 text-base">Johhny Deep</p>
+                            </div>
+                        </div>
+                        <div className="max-w-sm rounded">
+                            <Image
+                                className="w-auto h-auto"
+                                src="/category2.png"
+                                alt="Category"
+                                width={800}
+                                height={100}
+                                loading="lazy"
+                                />
+                            <div className="px-1 py-4">
+                                <div className="font-bold text-xl mb-2 text-black">Lorem ipsum dolor sit jamet</div>
+                                <p className="text-gray-700 text-base">Yi Long Ma</p>
+                            </div>
+                        </div>
+                        <div className="max-w-sm rounded">
+                            <Image
+                                className="w-auto h-auto"
+                                src="/category1.png"
+                                alt="Category"
+                                width={800}
+                                height={100}
+                                loading="lazy"
+                                />
+                            <div className="px-1 py-4">
+                                <div className="font-bold text-xl mb-2 text-black">Lorem ipsum dolor sit jamet</div>
+                                <p className="text-gray-700 text-base">Robert Downey Jr.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         );
 }
