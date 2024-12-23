@@ -11,6 +11,10 @@ export const Navbar = () => {
         setIsMobileMenuOpen((prev) => !prev);
     };
 
+    const closeMobileMenu = () => {
+        setIsMobileMenuOpen(false);
+    };
+
     return (
         <nav className="bg-white fixed w-full z-50 top-0 left-0 shadow-md">
             <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -81,9 +85,9 @@ export const Navbar = () => {
             {isMobileMenuOpen && (
                 <div className="sm:hidden" id="mobile-menu">
                     <div className="space-y-1 px-2 pb-3 pt-2 shadow-lg">
-                        <Link href="/" className="block px-3 py-2 text-base font-semibold text-black hover:underline" aria-current="page">Home</Link>
-                        <Link href="/about" className="block px-3 py-2 text-base font-semibold text-black hover:underline">About</Link>
-                        <Link href="/contact" className="block px-3 py-2 text-base font-semibold text-black hover:underline">Contact Us</Link>
+                        <Link href="/" onClick={closeMobileMenu} className="block px-3 py-2 text-base font-semibold text-black hover:underline" aria-current="page">Home</Link>
+                        <Link href="/about" onClick={closeMobileMenu} className="block px-3 py-2 text-base font-semibold text-black hover:underline">About</Link>
+                        <Link href="/contact" onClick={closeMobileMenu} className="block px-3 py-2 text-base font-semibold text-black hover:underline">Contact Us</Link>
                     </div>
                 </div>
             )}

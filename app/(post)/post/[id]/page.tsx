@@ -37,7 +37,7 @@ export default async function Page({
                     <p className="text-black text-2xl mt-10">{detailPost.description}</p>
                 </div>
                 <div className="mt-20">
-                    <h1 className="text-3xl text-black font-bold mb-5">Related Article(category)</h1>
+                    <h1 className="text-2xl text-black font-bold mb-5 sm:text-5xl">Related Article(category)</h1>
                     <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
                         <div className="max-w-sm rounded">
                             <Image

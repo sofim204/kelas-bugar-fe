@@ -10,7 +10,7 @@ export default function About() {
     return (
         <div className="min-h-screen p-8 mt-16">
             <main className="flex flex-col justify-evenly items-start sm:flex-row">
-                <div className="w-full ml-12">
+                <div className="w-full ml-2 sm:ml-12">
                     <h1 className="text-black text-5xl font-bold mb-3">About Us</h1>
                     <p className="text-base font-normal text-gray-500 mb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, eum.</p>
                     <div className="w-full flex flex-col items-start">

@@ -49,7 +49,7 @@ export default function Home() {
                 }
             </div>
             <div className="mt-20">
-                <h1 className="text-5xl text-black font-bold mb-5">Artikel Populer</h1>
+                <h1 className="text-3xl text-black font-bold mb-5 sm:text-5xl">Artikel Populer</h1>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
                     {
                         popularPostData.map((post, index) => (
