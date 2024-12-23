@@ -37,6 +37,5 @@ export default async function Page({
                     <p className="text-black text-2xl mt-10">{detailPost.description}</p>
                 </div>
             </div>
-            
         );
 }
