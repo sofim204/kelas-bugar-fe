@@ -45,7 +45,7 @@ export const Footer = () => {
                 </div>
                 <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
                 <div className="sm:flex items-center sm:justify-center">
-                    <span className="text-sm text-gray-500 text-center dark:text-gray-400">© 2024 <a href="https://flowbite.com/" className="hover:underline">KelasBugar</a>. All Rights Reserved.
+                    <span className="text-sm text-gray-500 text-center dark:text-gray-400">© 2024 <a href="/" className="hover:underline">KelasBugar</a>. All Rights Reserved.
                     </span>
                 </div>
             </div>
